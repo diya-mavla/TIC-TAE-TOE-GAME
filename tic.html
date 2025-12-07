@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe | Diya</title>
+  <link rel="stylesheet" href="tic.css">
+</head>
+
+<body>
+
+  <h1>Tic Tac Toe</h1>
+
+  <div id="board">
+    <div class="cell" onclick="play(this,0)"></div>
+    <div class="cell" onclick="play(this,1)"></div>
+    <div class="cell" onclick="play(this,2)"></div>
+    <div class="cell" onclick="play(this,3)"></div>
+    <div class="cell" onclick="play(this,4)"></div>
+    <div class="cell" onclick="play(this,5)"></div>
+    <div class="cell" onclick="play(this,6)"></div>
+    <div class="cell" onclick="play(this,7)"></div>
+    <div class="cell" onclick="play(this,8)"></div>
+
+    <div id="win-line"></div>
+  </div>
+
+  <p id="result"></p>
+  <button onclick="resetGame()">Restart</button>
+
+  <script src="tic.js"></script>
+</body>
+</html>
